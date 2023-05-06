@@ -1,0 +1,29 @@
+{
+  "name": "@proton/vuepress-plugin-graphviz",
+  "version": "2.2.1",
+  "description": "A Vuepress plugin providing easy Graphviz diagramming",
+  "main": "src/index.js",
+  "repository": "https://github.com/awwaiid/vuepress-plugin-graphviz",
+  "author": "Brock Wilcox <awwaiid@thelackthereof.org>",
+  "license": "MIT",
+  "website": "https://github.com/awwaiid/vuepress-plugin-graphviz",
+  "keywords": [
+    "documentation",
+    "vue",
+    "vuepress",
+    "graphviz",
+    "diagrams",
+    "plugin"
+  ],
+  "dependencies": {
+    "@aduh95/viz.js": "3.4.0",
+    "@vuepress/shared-utils": "^1.9.7"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
